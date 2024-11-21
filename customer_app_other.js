@@ -4,7 +4,7 @@ const Customers = require('./customer');         // Imported MongoDB model for '
 const express = require('express');              // Express.js web framework
 const bodyParser = require('body-parser');       // Middleware for parsing JSON requests
 const path = require('path');                    // Node.js path module for working with file and directory paths
-const { ValidationError, InvalidUserError, AuthenticationFailed } = require('./errors/CustomError');
+const { ValidationError, InvalidUserError, AuthenticationFailed } = require('./CustomError');
 
 // Creating an instance of the Express application
 const app = express();
